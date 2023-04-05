@@ -17,8 +17,8 @@ const Counter = () => {
     dispatch({ type: "INCREMENTBY5" });
   };
 
-  const decrementBy5Handler = () => {
-    dispatch({ type: "DECREMENTBY5" });
+  const decrementBy5Handler = () => { 
+    dispatch({ type: "DECREMENTBY5" }); 
   };
   return (
     <main className={classes.counter}>
